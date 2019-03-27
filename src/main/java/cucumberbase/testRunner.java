@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Users\\Gomathi\\eclipse-workspace\\cucumberbase\\src\\test\\resources\\Features",monochrome=true,strict=false,dryRun=false,glue="cucumberbase",plugin="html:target")
+@CucumberOptions(features="C:\\Users\\Gomathi\\eclipse-workspace\\cucumberbase\\src\\test\\resources\\Features",monochrome=true,strict=false,dryRun=false,glue="cucumberbase",plugin= {"html:target","json:src/main/java/report.json"})
 public class testRunner {
 
 }

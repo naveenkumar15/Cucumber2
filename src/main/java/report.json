@@ -1,0 +1,162 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "AddCustomer scenario",
+        "description": "",
+        "id": "addcustomer-feature;addcustomer-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12576473962,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is in add customer page",
+            "match": {
+              "location": "SampleAddcust.the_user_is_in_add_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000311039,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user fill in the Customer details",
+            "match": {
+              "location": "SampleAddcust.the_user_fill_in_the_Customer_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3238000864,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user clicks the submit button",
+            "match": {
+              "location": "SampleAddcust.the_user_clicks_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88745311,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user should see the success message",
+            "match": {
+              "location": "SampleAddcust.the_user_should_see_the_success_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35295970,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should see the customer ID",
+            "match": {
+              "location": "SampleAddcust.the_user_should_see_the_customer_ID()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddCust"
+          }
+        ]
+      }
+    ],
+    "name": "AddCustomer feature",
+    "description": "",
+    "id": "addcustomer-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Gomathi/eclipse-workspace/cucumberbase/src/test/resources/Features/AddCustomer.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "AddTariffPlan scenario",
+        "description": "",
+        "id": "addtariffplan-feature;addtariffplan-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10049487744,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is in AddTariffPlan page",
+            "match": {
+              "location": "SampleAddtariff.the_user_is_in_AddTariffPlan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 495913390,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user Fill in the Tariff details",
+            "match": {
+              "location": "SampleAddtariff.the_user_Fill_in_the_Tariff_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1655478907,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user clicks the Tariffsubmit button",
+            "match": {
+              "location": "SampleAddtariff.the_user_clicks_the_Tariffsubmit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57954511,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user should see the Tariffsuccess message",
+            "match": {
+              "location": "SampleAddtariff.the_user_should_see_the_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Addtariff"
+          }
+        ]
+      }
+    ],
+    "name": "AddTariffPlan feature",
+    "description": "",
+    "id": "addtariffplan-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Gomathi/eclipse-workspace/cucumberbase/src/test/resources/Features/AddTariffPlan.feature",
+    "tags": []
+  }
+]
